@@ -28,3 +28,11 @@ function maxOfThree (num1, num2, num3){
 }
 const max3 = maxOfThree(22, 44, 66);
 console.log('max of three is:', max3);
+
+
+
+
+
+// math.max
+const max = Math.max(112, 11, 156, 15, 165, 18, 511, 199, 12);
+console.log('max issuing Math.max', max)
