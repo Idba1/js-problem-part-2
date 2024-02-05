@@ -44,5 +44,24 @@ function getPrice(product) {
 }
 
 // const price = getPrice(5)
-const price = getPrice({ name: 'chulkani dandi', price: 350, color: 'blue' })
-console.log(price)
+const price = getPrice({ name: 'chulkani dandi', price: 350, color: 'blue' });
+console.log(price);
+
+
+
+
+
+
+// Array Check
+function getSecond(numbers) {
+    if(Array.isArray(numbers) === false){
+        return 'Please provide an array'
+    }
+    const second = numbers[1];
+    return second;
+}
+
+
+// const second = getSecond({ name: 'chulkani dandi', price: 350, color: 'blue' });
+const second = getSecond([45, 61, 2]);
+console.log(second);
