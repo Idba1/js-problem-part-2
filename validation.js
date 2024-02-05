@@ -29,3 +29,20 @@ function fullName(first, second) {
 // const full = fullName('Akmal' , 7);
 const full = fullName('Akmal' , 'Hasan');
 console.log(full);
+
+
+
+
+
+// Object Check
+function getPrice(product) {
+    if (typeof product !== 'object') {
+        return 'Please provide an object'
+    }
+    const price = product.price;
+    return price;
+}
+
+// const price = getPrice(5)
+const price = getPrice({ name: 'chulkani dandi', price: 350, color: 'blue' })
+console.log(price)
